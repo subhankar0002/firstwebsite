@@ -1,0 +1,216 @@
+.navbar-nav .nav-link:hover {
+    color: orange; 
+  }
+.navbar-nav .nav-link {
+    
+    font-weight: 600;
+    color: rgb(255, 255, 255); 
+  }
+  .home{
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg);
+    background-size: cover;
+
+}
+.navbar{
+    border-bottom: 1.5px solid rgb(128, 127, 125);
+}
+ .logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+.into {
+  color: orange;
+  height: 60vh;
+  gap: 20px;
+ margin-top: 5em;
+  
+}
+.sub{
+  color: aliceblue;
+}
+.into h1{
+  font-size: 55px;
+  font-family: math;
+}
+.into h4{
+  padding-top: 30px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+}
+.get-in-touch{
+   margin-top: 10vh;
+   
+}
+.get-in-touch img{
+background-color: #fff;
+  height: 40px;
+  width: 55px;
+  padding: 5px 0px 5px 0px ;
+  border-radius:40%;
+ margin-right: 15px;
+}
+#goto{
+  text-decoration: none;
+}
+#goto h6{
+  font-weight: 700;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+ height: 40px;
+ width: 150px;
+  text-decoration: none;
+  background-color: aliceblue;
+  border-radius: 20px;
+  border: none;
+}
+
+@media(max-width:550px){
+  .into {
+    color: orange;
+    /* padding-left: 30px; */
+    height: 60vh;
+    gap: 20px;
+   margin-top: 5em;
+    margin-left: 15px;
+  }
+  .sub{
+    color: aliceblue;
+  }
+  .into h1{
+    font-size: 35px;
+    font-family: math;
+  }
+
+}
+@media(max-width:850px){
+  .into {
+    color: orange;
+    /* padding-left: 30px; */
+    height: 60vh;
+    gap: 20px;
+   margin-top: 5em;
+    margin-left: 15px;
+  }
+  .sub{
+    color: aliceblue;
+  }
+  .into h1{
+    font-size: 35px;
+    font-family: math;
+  }
+
+}
+/* about */
+.about{
+  height: 80vh;
+  background-color: rgb(37, 39, 38);
+ 
+}
+.about-first{
+ text-align: center;
+}
+.firdt-cont{
+  padding-top: 30px;
+  color: bisque;
+  display: flex;
+  justify-content: center;
+}
+.about-first h3{
+  
+  color: orange;
+
+}
+.about-first p {
+  margin-top: -15px;
+  font-size: larger;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+
+}
+/* footer */
+.firdt-cont1{
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  color: white;
+  background-color: black;
+  
+}
+.foot{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+  /* document.html */
+
+.schoolscards{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+.alldoc{
+  height: auto;
+  width: 100vw;
+  background-color: rgb(138, 138, 138);
+}
+
+  .same{
+    padding: 20px 0px 20px 0px; 
+       margin: auto;
+    text-align: center;
+        height: 220px;
+        width: 327px ;
+        border-radius: 20px;
+        font-size: 26px;
+        font-family: math;
+        background-color: white;
+        box-shadow: 7px 7px 10px rgb(75, 74, 74);
+    }
+    .same p{
+      font-size: 18px;
+    }
+    .same button{
+        background-color: rgb(189, 189, 240);
+        padding: 5px 20px 5px 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+        font-weight: 700;
+    
+    }
+    .same button:hover{
+        background-color:rgb(162, 162, 163);
+    
+    }
+    @media(max-width:800px){
+      .schoolscards{
+        margin-top: 30px;
+        display: list-item;
+        justify-content: center;
+      }
+      .same{
+        margin-top: 30px;
+      }
+    }
+    /* collage doucments */
+    .collagecards{
+      height: auto;
+      width: 100vw;
+      display: grid;
+      grid-row-gap: 20px;
+     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    }
+.alldoc h4{
+  font-size: 30px;
+  font-weight: 800;
+ padding-top: 20px;
+}
