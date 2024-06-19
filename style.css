@@ -224,7 +224,7 @@ background-color: #fff;
 li{
   list-style: none;
  }
- .navbar a{
+header a{
   font-weight: 700;
   text-decoration: none;
   color: #fff;
@@ -274,7 +274,7 @@ header .dropdown-menu{
 .dropdown-menu.open{
   height: auto;
 }
-.dropdown-menu li{
+ .dropdown-menu li{
   padding: 0.7rem;
   display: flex;
   justify-content: center;
